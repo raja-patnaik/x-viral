@@ -12,9 +12,9 @@ Each AI assistant was provided with access to [X's open-sourced algorithm reposi
 
 ## Participating AI Assistants
 
-- **Claude Code** (Anthropic) - Output: `claude_viral.md`
-- **Codex** (OpenAI) - Output: `codex_viral.md`
-- **Gemini** (Google) - Output: `gemini_viral.md`
+- **Claude Code** (Anthropic) - Output: `claude.md`
+- **Codex** (OpenAI) - Output: `codex.md`
+- **Gemini** (Google) - Output: `gemini.md`
 
 ## Methodology
 
@@ -37,10 +37,10 @@ Each AI assistant was expected to:
 
 ```
 .
-├── README.md                 # This file
-├── claude_viral.md          # Claude Code's analysis and guide
-├── codex_viral.md           # Codex's analysis and guide  
-├── gemini_viral.md          # Gemini's analysis and guide
+├── README.md                # This file
+├── claude.md                # Claude Code's analysis and guide
+├── codex.md                 # Codex's analysis and guide  
+├── gemini.md                # Gemini's analysis and guide
 └── the-algorithm/           # X's open-sourced algorithm (submodule)
 ```
 
@@ -121,7 +121,7 @@ They should NOT be used for:
 If you'd like to add analysis from another AI assistant or update existing analyses:
 
 1. Fork the repository
-2. Add your `[assistant_name]_viral.md` file
+2. Add your `[assistant_name].md` file
 3. Update this README with the new addition
 4. Submit a pull request
 
